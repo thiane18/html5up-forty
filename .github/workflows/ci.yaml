@@ -63,7 +63,7 @@ jobs:
   # ===============================
   deploy:
     needs: ci
-    runs-on: aws-runner
+    runs-on: ubuntu-latest
 
     steps:
       - name: Pull latest image
